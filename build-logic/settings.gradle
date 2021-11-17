@@ -3,15 +3,13 @@ pluginManagement {
         google()
         mavenCentral()
         gradlePluginPortal()
-        includeBuild 'build-logic'
     }
 }
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
+        gradlePluginPortal()
     }
 }
-rootProject.name = "My Application"
-include ':app'
+rootProject.name = "build-logic"
