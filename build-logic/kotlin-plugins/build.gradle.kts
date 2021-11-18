@@ -1,7 +1,3 @@
-plugins {
-    `kotlin-dsl`
-}
+plugins { `kotlin-dsl` }
 
-dependencies {
-    implementation("com.diffplug.spotless:spotless-plugin-gradle:6.0.0")
-}
+dependencies { implementation("com.diffplug.spotless:spotless-plugin-gradle:6.0.0") }
